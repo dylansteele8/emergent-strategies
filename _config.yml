@@ -1,0 +1,41 @@
+# # Welcome to Jekyll!
+# #
+# # This config file is meant for settings that affect your whole blog, values
+# # which you are expected to set up once and rarely edit after that. If you find
+# # yourself editing this file very often, consider using Jekyll's data files
+# # feature for the data you need to update frequently.
+
+# Site settings
+title: Emergent Strategies
+description: Future-focused strategic consulting
+owner: Emergent Strategies
+first_published: 2017
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://yourdomain.com" # the base hostname & protocol for your site
+social:
+  email: contact@emergent-strategies.com
+  twitter: https://twitter.com/EcomavenNW
+  linkedin-square: https://linkedin.com/in/
+  facebook-official: https://facebook.com/<username>
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+#sass:
+#  style: compressed
+
+# Include from processing
+include:
+  - _pages
+
+# Exclude from processing
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+# exclude:
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
